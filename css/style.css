@@ -1,0 +1,472 @@
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	/* color: #333;
+	background-color:#E9EDF0; */
+	
+	margin: 0 ;
+	padding: 0px;
+	box-sizing: border-box;
+	
+	
+}
+.container-estela{
+
+	display: flex;
+	
+	flex-flow:nowrap ;
+	
+
+
+}
+.container-presentacion{
+
+	background: url(../img/fondo-estela.png) ;
+	background-size:cover ;
+	
+	
+	height: 100vh;
+	width: 70%;
+	padding-left:60px ;
+
+
+
+	
+
+	
+	
+}
+
+.container-form{
+
+	
+	height: 100vh;
+	background: #BDCCC7;
+	width: 30%;
+	
+		top:0px;
+		right: 0px;
+		bottom: 300px;
+		padding-left: 150px;
+		
+	}
+
+.container-presentacion h3{
+
+color:#FFFFFF;
+font-family: sans-serif;
+margin-top: 150px;
+letter-spacing: 0.1em;
+font-size: 1.5em;
+
+
+
+}
+.container-presentacion .linea-estela{
+	border-top: 2.5px solid #FFFFFF;
+	height: 2px;
+	max-width: 4%;
+	padding: 0;
+	margin: 0px;
+
+
+}
+
+.container-presentacion h2{
+
+	color:#FFFFFF;
+	font-size: 2em;
+	line-height: 1.5em;
+	
+	
+}
+
+.container-presentacion p{
+	color:#FFFFFF;
+	font-size: 1em;
+	text-align: justify;
+	
+}
+
+.container-presentacion a, .container-presentacion h4{
+
+
+color:#FFFFFF;
+text-decoration: none;
+margin-top: 50px;
+
+
+}
+.container-presentacion img{
+
+	margin-left: 20px;
+	position: relative;
+	
+	bottom: 45px;
+	left: 120px;
+
+	
+}
+
+.container-form h2{
+
+	color: #0A333D;
+	
+	font-size: 2.5em;
+	
+}
+.container-form .linea-form{
+	border-top: 3.5px solid #158A75;
+	height: 6px;
+	max-width: 20%;
+	padding: 0;
+	margin: 0px;
+
+}
+.container-form  .input-form{
+	width: 70%;
+	display:block;
+	background-color:#BDCCC7;
+	border-right: 0px;border-top: 0px;border-left: 0px;
+	border-color:#0A333D;
+	margin-top: 50px;
+	text-decoration: none;
+
+
+
+}
+.container-form .checkbox{
+
+	margin-top:50px;
+
+}
+.btn input {
+
+	text-align:center;
+	text-decoration: none;
+    padding: 10px 115px;
+    font-size:14px;
+    color: #FFFFFF;
+    background-color: #0A333D;
+    border: none;
+	margin-top: 50px;
+}
+.container-form .btn{
+
+	margin-top: 30px;
+}
+.container2{
+
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	margin-top: 40px;
+	
+
+
+}
+.container2 .texto1 h2{
+
+	font-size: 38px;
+	color: #0A333D;
+	font-family: 'Times New Roman', Times, serif;
+
+}
+.container2  .texto1 p{
+
+	color:#646464;
+	
+} 
+.container2 a{
+
+	text-decoration: none;
+	color: #158977;
+	
+	
+}
+
+.logo  {
+
+	margin: 50px auto;
+ text-align: center;
+
+}
+
+.container-service{
+
+	display: flex;
+	flex-flow:wrap ;
+	justify-content: space-evenly;
+	
+	
+
+
+}
+
+
+.container-service .cont1{
+background-image: url(/img/renta.png) ;
+background-repeat: no-repeat;
+height: 250px;
+width: 280px;
+margin-top: 20px;
+
+
+
+
+
+
+
+}
+
+.container-service .cont2{
+	background-image: url(/img/cajones.png) ;
+	background-repeat: no-repeat;
+	height: 250px;
+	width: 280px;
+	margin-top: 20px;
+
+		
+	}
+
+	.container-service .cont3{
+		background-image: url(/img/niveles.png) ;
+		background-repeat: no-repeat;
+		height: 250px;
+		width: 280px;
+		margin-top: 20px;
+		}
+
+.container-service .cont4{
+		background-image: url(/img/penthouses.png) ;
+		background-repeat: no-repeat;
+		height: 250px;
+		width: 280px;
+		margin-top: 20px;
+			}
+.container-service h1 {
+
+font-size: 50px;
+
+color:#FFFFFF;
+
+text-align: center; 
+margin-top: 30%;
+ margin-bottom: 20px;
+
+	
+}
+
+.container-service  h4 {
+	text-align: center; 
+	color:#FFFFFF ;
+
+	
+	
+}
+.container-productos,.container-locales,.container-penthouses{
+
+	margin-top: 150px;
+	display: flex;
+	flex-flow:wrap ;
+	justify-content:space-evenly;
+	
+}
+
+.container-productos .oficinas,.container-penthouses .penthouses{
+	
+
+ margin-right: 200px;
+line-height: 1.5em;
+}
+.container-productos .oficinas h2 ,.container-locales .locales h2,.container-penthouses .penthouses h2{
+color:#0A333D ;
+font-size: 30px;
+
+}
+.container-productos .oficinas p,.container-locales .locales p,.container-penthouses .penthouses p {
+
+	color: #646464;
+	text-align: justify;
+}
+
+.container-productos .oficinas a,.container-locales .locales a,.container-penthouses .penthouses a{
+ 
+	color: #158977;
+	text-decoration: none;
+
+	
+}
+
+.container-locales{
+
+	margin-top: 200px;
+	display: flex;
+	flex-flow:wrap ;
+	justify-content:space-evenly;
+
+
+}
+.container-locales .locales{
+
+	margin-left: 100px;
+	line-height: 1.5em;
+
+}
+.container-proyectos{
+
+	margin-top: 100px;
+	background-image: url(/img/fondop.png);
+	background-size:cover ;
+	
+	height: 70vh;
+
+	padding-left:150PX; padding-top: 150px;
+
+
+	
+}
+.container-proyectos h1{
+
+color: #FFFFFF;
+font-size: 38px;
+font-family:sans-serif;
+
+}
+
+.container-proyectos p{
+
+	color: #FFFFFF;
+	line-height:1.5em;
+	font-size: 20px;
+}
+.container-proyectos .linea{
+	margin-top: 20px;
+	border-top: 2.5px solid #FFFFFF;
+	height: 2px;
+	max-width: 4%;
+	padding: 0;
+
+}
+.container-proyectos a{
+
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 20px;
+}
+
+#map {
+	height: 500px;
+	width: 100%;
+}
+.container-footer{
+
+background:#0A333D;
+width: 100%;
+margin-top: -25px;
+display: flex;
+flex-flow:wrap ;
+	justify-content:space-between;
+	padding-top:20px;
+ 
+}
+
+.container-footer .sociales ul li{
+
+	display: inline;
+	margin-right: 10px;
+}
+
+.container-footer .sociales {
+margin-top: 20px;
+
+margin-right: 50px;
+	
+}
+
+.container-footer .copy{
+
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.container-footer h2{
+
+	color: #FFFFFF;
+	line-height: .5em;
+}
+.container-footer p{
+	color:#FFFFFF;
+}
+
+
+
+.formulario__grupo-incorrecto .input-form {
+	border-bottom: 3px solid #bb2929;
+
+	
+}
+.formulario__grupo-correcto .input-form {
+	border-bottom: 3px solid #1ed12d;
+
+	
+}
+
+.formulario__input-error {
+	font-size: 12px;
+	margin-bottom: 0;
+	display: none;
+}
+.formulario__input-error-activo {
+
+	display: block;
+} .formulario__mensaje-exito{
+	font-size: 14px;
+	color: #158A75;
+	margin-top: 50px;
+	margin-left: 100px;
+	display: none;
+
+
+
+}
+
+.formulario__mensaje-exito-activo{
+
+	display: block;
+
+}
+.formulario__mensaje {
+
+	font-size: 14px;
+	color: #bb2929;
+	margin-top: 50px;
+	margin-left: 50px;
+	display: none;
+
+}
+.formulario__mensaje-activo {
+display: block;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
